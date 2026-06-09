@@ -1,0 +1,46 @@
+body{
+  margin:0;
+  background:#111;
+  color:white;
+  font-family:Arial;
+}
+
+.header{
+  padding:15px;
+  background:#191919;
+}
+
+.dashboard{
+  display:flex;
+  height:calc(100vh - 70px);
+}
+
+.left{
+  width:40%;
+  overflow:auto;
+}
+
+.right{
+  width:60%;
+}
+
+.panel{
+  margin:10px;
+  background:#1d1d1d;
+  padding:10px;
+  border-radius:10px;
+}
+
+table{
+  width:100%;
+  border-collapse:collapse;
+}
+
+th,td{
+  padding:8px;
+  border-bottom:1px solid #333;
+}
+
+tr:hover{
+  background:#2b2b2b;
+}
